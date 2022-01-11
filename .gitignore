@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+pyvenv.cfg
+db.sqlite3
+Scripts
+Lib
+invoice/__pycache__
+djangobilling/__pycache__
