@@ -5,3 +5,4 @@ Scripts
 Lib
 invoice/__pycache__
 djangobilling/__pycache__
+invoice/migrations/__pycache__/
