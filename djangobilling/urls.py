@@ -16,8 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from invoice.views import home_view
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('',home_view ),
     path('admin/', admin.site.urls),
 ]
+
+urlpatterns+=staticfiles_urlpatterns()

@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.form_label {
+    margin-right: 30px;
+    font-size: 16px;
+
+}
+
+.form_box {
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.remove {
+    margin-top: 10%;
+    background-color: #e8220e;
+    font-size: 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
+
+.remove:hover{
+    background-color: #a11a09;
+}
+
+.container {
+    display: flex;
+}
+
+.fixed {
+    width: 50%;
+
+}
+
+.flex-item {
+    flex-grow: 1;
+}
+
+.invoice-details {
+    display: none;
+}
+
+.top-row {
+    background-color: #333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.login:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+        .add {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.add:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.save {
+    background-color: white;
+    color: black;
+    border: 2px solid #46a801;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.save:hover {
+    background-color: #46a801;
+    color: white;
+}
+
+.cancel {
+    background-color: white;
+    color: black;
+    border: 2px solid #b90000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cancel:hover {
+    background-color: #B90000FF;
+    color: white;
+}
+
+.footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #section-to-print, #section-to-print * {
+        visibility: visible;
+    }
+
+    #entry-fields {
+        display: none;
+    }
+
+    .invoice-details {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .invoice-details div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .remove-field {
+        display: none;
+    }
+
+    .product-table {
+        width: 90%;
+    }
+}

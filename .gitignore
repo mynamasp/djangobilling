@@ -6,3 +6,5 @@ Lib
 invoice/__pycache__
 djangobilling/__pycache__
 invoice/migrations/__pycache__/
+db.sqlite3
+*.pyc
