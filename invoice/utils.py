@@ -31,11 +31,11 @@ menu = {'101A': ['Brown rice', 50, 45.50, 41.25],
         '204D': ['Whole flaxseeds', 95.20, 90.45, 89.20]}
 
 # 'customer_id':['name','phone_no']
-customer_registry = {'AAA1001': ['Surian', 9500012345],
-                     'AAA1002': ['Nila', 9500023456],
-                     'AAA1003': ['Arivazhagan', 9712300078],
-                     'AAA1004': ['Nithin Kumar', 9586233333],
-                     'AAA1005': ['Aravind', 6931245872]}
+customer_registry = {'AAA1001': ['Surian', '9500012345'],
+                     'AAA1002': ['Nila', '9500023456'],
+                     'AAA1003': ['Arivazhagan', '9712300078'],
+                     'AAA1004': ['Nithin Kumar', '9586233333'],
+                     'AAA1005': ['Aravind', '6931245872']}
 
 
 def calculate_discount(amount, registry_found):
