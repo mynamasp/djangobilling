@@ -13,6 +13,6 @@ class Menu(models.Model):
 class Customers(models.Model):
     customer_ID = models.CharField(max_length=8)
     customer_name = models.CharField(max_length=50)
-    customer_phone_no = models.IntegerField()
+    customer_phone_no = models.BigIntegerField()
 
 
